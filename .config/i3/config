@@ -202,3 +202,4 @@ gaps outer 5
 exec xrandr --output DP-1 --off --output HDMI-1 --off --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
 exec --no-startup-id compton -f
 exec_always --no-startup-id feh --bg-scale /home/christian/Pictures/wakatipu.jpg
+exec --no-startup-id polybar white
