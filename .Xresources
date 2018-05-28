@@ -2,11 +2,11 @@
 ! URXVT CONFIG !
 !--------------!
 
-URxvt.internalBorder:	30
+URxvt.internalBorder:	10
 URxvt.scrollBar:	false
 URxvt.letterSpace:	-1
 URxvt.cursorColor:	#191919
-URxvt.font: xft:Hack:size=10, xft:Font Awesome 5 Free Solid:size=10
+URxvt.font: xft:DejaVu Sans Mono:size=10, xft:Font Awesome 5 Free Solid:size=10
 !! Larger history limit
 urxvt.saveLines: 1000000
 
@@ -41,7 +41,7 @@ rofi.borderwidth: 0
 rofi.columns: 1
 rofi.lines: 5
 rofi.separator-style: solid
-rofi.font: Hack 10
+rofi.font: DejaVu Sans Mono 10
 
 rofi.color-enabled: true
 !rofi.color-window: #f2a2f0, #f2a2f0, #f2a2f0
