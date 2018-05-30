@@ -27,10 +27,10 @@ override-redirect = false
 ; FONTS ;
 ;-------;
 
-font-0 = "DejaVu Sans Mono:size=10;3"
+font-0 = Hack:size=10;3
 font-1 = "FontAwesome:style=Solid:pixelsize=12;3"
 font-2 = "FontAwesome:style=Regular:pixelsize=12;3"
-font-3 = "FontAwesomes:pixelsize=12;3"
+font-3 = "FontAwesome:pixelsize=12;3"
 
 ;--------;
 ; COLORS ;
@@ -84,10 +84,10 @@ override-redirect = false
 ; FONTS ;
 ;-------;
 
-font-0 = "DejaVu Sans Mono:size=10;3"
-font-1 = "Font Awesome 5 Free:style=Solid:pixelsize=10;3"
-font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=10;3"
-font-3 = "Font Awesome 5 Brands:pixelsize=10;3"
+font-0 = Hack:size=10;3
+font-1 = "FontAwesome:style=Solid:pixelsize=10;3"
+font-2 = "FontAwesome:style=Regular:pixelsize=10;3"
+font-3 = "FontAwesome:pixelsize=10;3"
 
 ;--------;
 ; COLORS ;
@@ -240,3 +240,4 @@ inherit = bar/white
 background = #ffffff
 
 tray-position = center
+
