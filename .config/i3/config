@@ -164,12 +164,12 @@ gaps inner 10
 gaps outer 5
 
 # startup
+exec_always --no-startup-id xrdb ~/.Xresources
 #exec xrandr --output DP-1 --off --output HDMI-1 --off --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
 #exec --no-startup-id xrandr --output DP-1 --off --output HDMI-1 --off --output eDP-1 --primary --dpi 160
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id compton -cb --config ~/.config/compton/compton.conf
 exec_always --no-startup-id feh --bg-scale $HOME/Pictures/autumn.jpg
-exec_always --no-startup-id xrdb ~/.Xresources
 
 # workspace assignments
 #assign [class="Terminator"] $ws1
