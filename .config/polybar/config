@@ -122,7 +122,7 @@ modules-center = mpd
 type = internal/i3
 
 pin-workspaces = true
-strip-wsnumbers = true
+strip-wsnumbers = false
 enable-scroll = false
 
 label-unfocused-foreground = #afafaf
