@@ -31,8 +31,8 @@ rofi.separator-style: solid
 rofi.font: DejaVu Sans Mono 10
 
 rofi.color-enabled: true
-!rofi.color-window: #f2a2f0, #f2a2f0, #f2a2f0
-!rofi.color-normal: #f2a2f0, #f2a2f0, #f2a2f0
+;rofi.color-window: #f2a2f0, #f2a2f0, #f2a2f0
+;rofi.color-normal: #f2a2f0, #f2a2f0, #f2a2f0
 
 ! ------------------------------------------------------------------------------
 ! theme colors
