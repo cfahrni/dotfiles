@@ -2,7 +2,7 @@
 set $mod Mod4
 
 # font settings 
-font pango:DejaVu Sans Mono 8
+font pango:DejaVu Sans Mono 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -165,11 +165,12 @@ gaps outer 10
 
 # startup
 exec_always --no-startup-id xrdb ~/.Xresources
-exec --no-startup-id xrandr --output DP-1 --off --output HDMI-1 --off --output eDP-1 --primary --dpi 150
-#exec xrandr --output DP-1 --off --output HDMI-1 --off --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
+#exec --no-startup-id xrandr --output DP-1 --off --output HDMI-1 --off --output eDP1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
+#exec --no-startup-id xrandr --output DP-1 --off --output HDMI-1 --off --output eDP1 --primary --dpi 144
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id compton -cb --config ~/.config/compton/compton.conf
 exec_always --no-startup-id feh --bg-scale $HOME/Pictures/autumn.jpg
+exec_always --no-startup-id nm-applet
 
 # workspace assignments
 assign [class="Terminator"] $ws1

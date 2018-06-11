@@ -1,7 +1,7 @@
 !------------!
 ! X11 CONFIG !
 !------------!
-Xft.dpi: 150
+Xft.dpi: 96
 Xft.autohint: 0
 Xft.lcdfilter:  lcddefault
 Xft.hintstyle:  hintslight
@@ -20,7 +20,7 @@ rofi.color-window:	#ffffff,	#191919,	#191919
 rofi.color-normal:	#ffffff,	#191919,	#ffffff,	#191919,	#ffffff
 
 ! general
-rofi.dpi: 150
+rofi.dpi: 96
 rofi.width: 33
 rofi.padding: 30
 rofi.hide-scrollbar: true
