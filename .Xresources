@@ -17,6 +17,7 @@ Xft.rgba: rgb
 rofi.color-window:	#ffffff,	#191919,	#191919	
 
 ! state			bg		fg		abg		hbg		hfg
+! rofi.color-normal:	#ffffff,	#191919,	#ffffff,	#191919,	#ffffff
 rofi.color-normal:	#ffffff,	#191919,	#ffffff,	#191919,	#ffffff
 
 ! general
