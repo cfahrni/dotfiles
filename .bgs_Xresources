@@ -1,0 +1,78 @@
+!------------!
+! X11 CONFIG !
+!------------!
+Xft.dpi: 96
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+!-------------!
+! ROFI CONFIG !
+!-------------!
+
+! state			background	border		separator
+rofi.color-window:	#ffffff,	#191919,	#191919	
+
+! state			bg		fg		abg		hbg		hfg
+! rofi.color-normal:	#ffffff,	#191919,	#ffffff,	#191919,	#ffffff
+rofi.color-normal:	#ffffff,	#191919,	#ffffff,	#191919,	#ffffff
+
+! general
+rofi.dpi: 96
+rofi.width: 33
+rofi.padding: 30
+rofi.hide-scrollbar: true
+rofi.borderwidth: 0
+rofi.columns: 1
+rofi.lines: 5
+rofi.separator-style: solid
+rofi.font: DejaVu Sans Mono 10
+
+rofi.color-enabled: true
+;rofi.color-window: #f2a2f0, #f2a2f0, #f2a2f0
+;rofi.color-normal: #f2a2f0, #f2a2f0, #f2a2f0
+
+! ------------------------------------------------------------------------------
+! theme colors
+! ------------------------------------------------------------------------------
+! special
+! special
+*.foreground:   #d3d0c8
+*.background:   #2d2d2d
+*.cursorColor:  #d3d0c8
+
+! black
+*.color0:       #2d2d2d
+*.color8:       #747369
+
+! red
+*.color1:       #f2777a
+*.color9:       #f2777a
+
+! green
+*.color2:       #99cc99
+*.color10:      #99cc99
+
+! yellow
+*.color3:       #ffcc66
+*.color11:      #ffcc66
+
+! blue
+*.color4:       #6699cc
+*.color12:      #6699cc
+
+! magenta
+*.color5:       #cc99cc
+*.color13:      #cc99cc
+
+! cyan
+*.color6:       #66cccc
+*.color14:      #66cccc
+
+! white
+*.color7:       #d3d0c8
+*.color15:      #f2f0ec
+
