@@ -163,12 +163,13 @@ client.urgent           	#		#		#		#		#
 client.background #
 
 # gaps
-gaps inner 40
-gaps outer 10
+gaps inner 10
+gaps outer 5
 
 # startup
 exec_always --no-startup-id xrdb ~/.Xresources
-exec_always --no-startup-id feh --bg-scale $HOME/Pictures/autumn.jpg
+#exec_always --no-startup-id feh --bg-scale /home/christian/CloudStation/Background/4k/4k-desktop-wallpaper_065227602_309.jpg
+exec_always --no-startup-id feh --bg-scale /home/christian/CloudStation/Background/simonstalenhag/by_warmachines1_2560.jpg
 #exec --no-startup-id xrandr --output DP-1 --off --output HDMI-1 --off --output eDP1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
 #exec --no-startup-id xrandr --output DP-1 --off --output HDMI-1 --off --output eDP1 --primary --dpi 144
 exec --no-startup-id compton -cb --config ~/.config/compton/compton.conf
