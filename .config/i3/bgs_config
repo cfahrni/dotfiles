@@ -168,9 +168,11 @@ gaps outer 5
 
 # startup
 exec_always --no-startup-id xrdb ~/.Xresources
-exec_always --no-startup-id feh --bg-scale /usr/share/backgrounds/f28/extras/a-special-silent-sunset.jpg
+exec_always --no-startup-id feh --bg-scale /home/christian/Pictures/5OF75P4.jpg
 exec --no-startup-id compton -cb --config ~/.config/compton/compton.conf
 exec_always --no-startup-id "sh -c 'sleep 2; exec $HOME/.config/polybar/launch.sh'"
+exec_always --no-startup-id /usr/bin/nm-applet
+exec vmware-user
 
 # workspace assignments
 assign [class="Terminator"] $ws1
